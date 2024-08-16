@@ -32,4 +32,5 @@ function upDate(preview){
         set_tab= document.querySelectorAll("img") ;
         for(i=0; i<set_tab.length;i++)
           set_tab[i].setAttribute("tabindex","0");
+            console.log(i);
              }
